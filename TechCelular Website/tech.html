@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Anthony Marzan">
+		
+		<!-- CSS Reference -->
+		<link rel="stylesheet" type="text/css" media="screen" href="css/P2Style.css">
+		
+		<!-- JavaScript Reference -->
+		<script src="js/myJS.js"> </script>
+		
+		<!-- Navbar button style -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+		
+		<title>tech</title>
+	</head>
+	<body>
+		<div class ="top" id="navBar">
+    <!-- Centers the 4 tabs with title in the middle -->
+			<a href="javascript:void(0);" class="icon" onclick="operateNav()">
+				<i class="fa fa-bars"></i>
+			</a>	
+			<li><a href="home.html">Home</a></li>
+			<li><a href="phone.html" >Phone</a></li>
+			<li><a class="title"><Strong>TechCelular</Strong></a></li>
+			<li><a href="tech.html" ><b>Tech</b></a></li>
+			<li><a href="about.html" >About</a></li>
+		</div>
+		
+		<!-- Main Image -->
+		<header class="techHead">
+			<!-- Text on top of image -->
+			<div class="centered">
+				<h3>Whats New</h3>
+			</div>
+		</header>
+		
+		<!-- Content for tech page -->
+		<div align="center">
+			<div class="homeline">
+				<hr>
+			</div>
+			<div class="content2">
+				
+				<br>
+				<h1>Smarthphone Tech News</h1>
+				<hr class="line">
+				<h2>iOS 12<h2>
+				<p>	
+					Apple's latest OS has finally come and here are some key features and improvements it has to offer.
+				</p>
+				
+				<div class="techParagraph" id="p1">
+					<p>
+						The new OS offers a more responsive and faster experience. Operations like swping to the camera offers
+						up to 70% faster performance as well as up to 50% faster keyboard display popup. The new iOS has support
+						going all the way back to iPhone 5s and iPad Air.
+					</p>
+					<p>
+						With FaceTime it can now support video and audio feed with up to 32 people in one session. A great feature that is used
+						is having the current speaker tile being enlarged so users can see the person talking. 
+					</p>
+					<p>
+						The new iOS also features lots of new Animoji's and camera effects to spice up your selfies and camera shots. 
+					</p>
+					<p>
+						Check out the full story which can be found on the Apple website
+						<a href="https://www.apple.com/nz/ios/ios-12-preview/" target="_blank">here</a>
+					</p>
+				</div>
+				<input class="techButton" id="b1" type="button" value="Click Here For More Information" onclick="return toggleMe('p1','b1')">
+				<br>
+				<hr class="line">
+				<h2>5G NR technology coming soon<h2>
+				<p>
+					It is looking like the new 5G NR technology is on track for a release next year. NR which is now known as ('New Radio') technology has been flaunted in many live demos showing the 
+					potential the new technology has.
+				</p>
+				
+				<div class="techParagraph" id="p2">
+					<p>
+						Qualcomm showed off a prototype smarthphone demo connected to a 5G tower, reaching a throughput of over 4Gbps which is a big jump from 4G celular performances. 
+						"Intel and Huawei were also showing off hardware prototypes, though less impressive. Intel had a weird tablet capable of streaming a not particularly intensive 4K video over 5G,
+						while Huawei were showing off modem technology that wasn't at the same compact level as Qualcomm. That said, both companies are well in the 5G tech race, along with many others."
+						cited from TechSpot's coverage on their article.
+					</p>
+					<p>
+						Full story can be found on the TechSpot website
+						<a href="https://www.techspot.com/article/1586-mobile-tech-trends-2018/" target="_blank">here</a>
+					</p>
+				</div>
+				<input class="techButton" id="b2" type="button" value="Click Here For More Information" onclick="return toggleMe('p2','b2')">
+				<br>
+				<hr class="line">
+				<h2>In-display fingerprint sensor technology<h2>
+				<p>
+					There has been many rumors about different phone companies developing in-display fingerprint sensor technologies. You would think Samsung and Apple would be the first 2 companies to release
+					such tech on their new flagship devices, but they were beaten to the punch by Vivo. Vivo, who are a major chinese smartphone brand have released the new fingerprint sensor technology with their X20 Plus UD smartphones. 
+				</p>
+				<div class="techParagraph" id="p3">
+					<p>
+						Quoted from the news article on TheVerge "The phone is the result of collaboration between Vivo and Synaptics, the US-based sensor maker. We tried out the in-display fingerprint sensor on a pre-production phone at CES 2018 earlier this month, 
+						and it ended up winning our Best in Show award."
+					</p>
+					<p>
+						Hopefully the tech would be further enhanced, as the reviews with the Vivo phone containing the new sensor is none too impressive. Samsungs new S10 line seems to be implemnting the new sensor, but has not been confirmed. 
+						As Samsung's are one of the leaders in displays I would not be suprised if they pull it off. 
+					</p>
+					<p>
+						Full story taken from TheVerge website and article can be found
+						<a href="https://www.theverge.com/circuitbreaker/2018/1/24/16926930/vivo-x20-plus-ud-fingerprint-scanner-in-screen-announcement-specs" target="_blank">here</a>
+					</p>
+				</div>
+				<input class="techButton" id="b3" type="button" value="Click Here For More Information" onclick="return toggleMe('p3','b3')">
+			</div>
+		</div>
+		
+		<footer>
+			&copy; TechCelular
+			<div class="content">
+				<a title="Privacy Policy" href="#">Privacy Policy</a>
+				<a title="Terms of Service" href="#">Terms of Service</a>
+			</div>
+		</footer>
+	</body>
+</html>

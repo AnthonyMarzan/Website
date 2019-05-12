@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Anthony Marzan">
+		
+		<!-- CSS Reference -->
+		<link rel="stylesheet" type="text/css" media="screen" href="css/P2Style.css">
+		
+		<!-- JavaScript Reference -->
+		<script src="js/myJS.js"> </script>
+		
+		<!-- Navbar button style -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<title>about</title>
+	</head>
+	<body>
+		<div class ="top" id="navBar">
+    <!-- Centers the 4 tabs with title in the middle -->
+			<a href="javascript:void(0);" class="icon" onclick="operateNav()">
+				<i class="fa fa-bars"></i>
+			</a>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="phone.html">Phone</a></li>
+			<li><a class="title"><Strong>TechCelular</Strong></a></li>
+			<li><a href="tech.html" >Tech</a></li>
+			<li><a href="about.html" ><b>About</b></a></li>
+		</div>
+
+		<div align="center" class="padding">
+			<div class="homeline">
+				<hr>
+			</div>
+			<div class="content2">
+				<br>
+				<h1>About Us</h1>
+				<p>	
+					I am an indepent writer who gathers and complies information about smarthphones for everyone to read and learn about.
+					<br>
+					The goal is to have all the information complied right into one website. I try to provid the lastest material in smartphone technologies and design.
+					<br>
+					As this is a solo effort there will still be minor bugs and a few incorrections in the website.
+					<br>
+					If there is any issues please feel free to contact me and leave a message.
+				</p>
+				<br>
+				<hr class="line">
+				<h2> Contact Information</h2>
+				<p>
+					<b>Address:</b> 450 Queen St, Auckland, New Zealand 1010
+				</p>
+				<p>
+					<b>Phone Number:</b> 09 916 6640
+				</p>
+			</div>
+			
+			<!-- Div for GoogleMap -->
+			<div class="mapouter">
+				<div class="gmap_canvas">
+					<iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=computer%20power%20plus%20auckland&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+						frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+			</div>
+			
+			<br>
+			<br>
+			
+			<!-- Creates the date and time scroller -->
+			<p class="marquee">
+				<span id="dtText"></span>
+			</p>
+			
+			<!-- Script for the scroller -->
+			<script type="text/javascript">
+				var today = new Date();
+				document.getElementById('dtText').innerHTML=today;
+			</script>
+			
+			<br>
+			<br>
+			<!-- Creating the writable text area -->
+			<div class="textarea">
+				<br>
+				<h2 class="message">Leave A Message</h2>
+				<textarea rows="20" cols="80" class="aboutTxt">
+				</textarea>
+				<br>
+				<br>
+				<!-- Creating the clickable button to the thank you page -->
+				<button type="button" onclick="sendMessage()"><a>Send Message</a></button>
+			</div>
+		</div>
+		<footer>
+			&copy; TechCelular
+			<div class="content">
+				<a title="Privacy Policy" href="#">Privacy Policy</a>
+				<a title="Terms of Service" href="#">Terms of Service</a>
+			</div>
+		</footer>
+	</body>
+</html>
