@@ -1,4 +1,4 @@
 # Website
 Website called TechCelular
 
-Reactive website using HTML and CSS
+Reactive website using HTML, CSS and JavaScript
